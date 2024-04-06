@@ -158,9 +158,9 @@ def windows():
     return random.choice([A,B,C,D])
 #-------------------// APPROVAL \\---------------------#
 import os,httpx
-sexkey = "Jembot~("+str(os.getuid())+"=(CYBER)="+str(os.getuid())+")~PRO"
+sexkey = "HOP~("+str(os.getuid())+"=(CYBER)="+str(os.getuid())+")~PRO"
 def approval():
-    sexkey = "Jembot~("+str(os.getuid())+"=(CYBER)="+str(os.getuid())+")~PRO"
+    sexkey = "HOP~("+str(os.getuid())+"=(CYBER)="+str(os.getuid())+")~PRO"
     ress=httpx.get("https://github.com/IYnZz/Kom/blob/main/CONTROLL").text
     if sexkey in ress:
         menu()
