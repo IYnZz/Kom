@@ -158,10 +158,10 @@ def windows():
     return random.choice([A,B,C,D])
 #-------------------// APPROVAL \\---------------------#
 import os,httpx
-sexkey = "HOP~("+str(os.getuid())+"=(CYBER)="+str(os.getuid())+")~PRO"
+sexkey = "Jembot~("+str(os.getuid())+"=(CYBER)="+str(os.getuid())+")~PRO"
 def approval():
-    sexkey = "HOP~("+str(os.getuid())+"=(CYBER)="+str(os.getuid())+")~PRO"
-    ress=httpx.get("https://github.com/HOP-404/HOP-PRO/blob/main/PRO-CONTROL").text
+    sexkey = "Jembot~("+str(os.getuid())+"=(CYBER)="+str(os.getuid())+")~PRO"
+    ress=httpx.get("https://github.com/IYnZz/Kom/blob/main/CONTROLL").text
     if sexkey in ress:
         menu()
     else:
@@ -173,7 +173,7 @@ def approval():
         input(f'\x1b[38;5;244m(\x1b[1;97m✘\x1b[38;5;244m)\x1b[38;5;46m PRESS ENTER TO SEND KEY ADMIN > ')
         time.sleep(2)
         tks = sexkey
-        os.system('xdg-open https://wa.me/+8801863231665')
+        os.system('xdg-open https://wa.me/+6285749742215')
 #__________________| LOGO |__________________#
 logo=(f"""
 \x1b[1;97m HH   HH   OOOOO   PPPPPP ━┳┳━━━━━━━━━━━━━━━━━━┐
